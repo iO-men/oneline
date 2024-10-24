@@ -1,0 +1,1 @@
+import cv2, numpy as np; print(f"Випадкове число: {int(np.sum(np.abs(np.fft.fft2(cv2.VideoCapture(0).read()[1])))%100+1)}")
